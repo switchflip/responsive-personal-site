@@ -1,0 +1,23 @@
+/* line 3, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+p, ul li, a {
+  font-family: sans-serif;
+  color: #333333; }
+
+/* line 8, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+p {
+  font-size: 14px; }
+
+/* line 12, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+a {
+  text-decoration: none;
+  color: #333333; }
+
+/* line 17, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+a:hover {
+  color: #202020; }
+
+/* line 21, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: serif;
+  color: #333333;
+  font-family: 'News Cycle', sans-serif; }

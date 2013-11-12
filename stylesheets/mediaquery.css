@@ -1,0 +1,65 @@
+@media (max-width: 1200px) {
+  /* line 8, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .third {
+    width: 90%;
+    margin: 0 5% 0 5%;
+    padding: 0; }
+    /* line 12, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    .third img {
+      margin: 0 auto;
+      display: block; } }
+@media (max-width: 860px) {
+  /* line 20, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .wrap {
+    width: 100%; }
+
+  /* line 24, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .header h1 {
+    float: initial;
+    display: block;
+    text-align: center;
+    padding: 80px 0 0 0;
+    margin: 0; }
+  /* line 31, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .header ul {
+    float: initial;
+    display: block;
+    text-align: center;
+    padding: 0 0 0 1.25%;
+    margin: 0; }
+  /* line 38, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .header ul li {
+    float: initial;
+    padding: 0;
+    margin: 0; }
+    /* line 42, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    .header ul li a {
+      padding: 0 3% 0 0; } }
+@media (max-width: 650) {
+  /* line 50, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .marketing {
+    background: url("../images/marketing.jpg") no-repeat -77px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+  /* line 58, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .large {
+    font-size: 36px; }
+
+  /* line 62, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .header ul li {
+    display: inline; } }
+@media (max-width: 450px) {
+  /* line 69, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .marketing {
+    background: url("../images/marketing.jpg") no-repeat -150px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+  /* line 76, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .large {
+    font-size: 36px; } }
