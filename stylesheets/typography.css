@@ -21,3 +21,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: serif;
   color: #333333;
   font-family: 'News Cycle', sans-serif; }
+
+/* line 27, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+.code {
+  font-family: 'cousine' sans-serif; }
