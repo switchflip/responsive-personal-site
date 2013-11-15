@@ -376,31 +376,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 3, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+/* line 6, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 p, ul li, a {
-  font-family: sans-serif;
-  color: #333333; }
+  font-family: "Roboto", "arial", sans-serif;
+  color: #5b6064; }
 
-/* line 8, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+/* line 11, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 p {
   font-size: 14px; }
 
-/* line 12, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+/* line 15, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 a {
   text-decoration: none;
-  color: #333333; }
+  color: #5b6064;
+  font-family: "Roboto", "arial", sans-serif; }
 
-/* line 17, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+/* line 21, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 a:hover {
   color: #202020; }
 
-/* line 21, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+/* line 25, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: serif;
-  color: #333333;
+  color: #222222;
   font-family: 'News Cycle', sans-serif; }
 
-/* line 27, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+/* line 31, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 .code {
   font-family: 'cousine' sans-serif; }
 
@@ -448,65 +449,33 @@ body {
   .third img {
     margin: 0 auto;
     margin-left: 13%;
+    padding-right: 18px;
     display: block; }
 
-/* line 50, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-.marketing {
-  width: 100%;
-  height: 450px;
-  background: url("../images/marketing.jpg") no-repeat 0px -125px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  /* line 58, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-  .marketing .bang {
-    margin: 0 auto;
-    width: 75%;
-    padding: 10% 5% 10% 5%;
-    border-radius: 5px;
-    background-color: #ecf0f1;
-    opacity: 0;
-    top: 87px;
-    position: relative;
-    -webkit-transition: opacity 1s;
-    transition: opacity 1s; }
-    /* line 69, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-    .marketing .bang h2 {
-      margin: 0 auto;
-      opacity: 0;
-      -webkit-transition: opacity 1.5s;
-      transition: opacity 1.5s; }
-  /* line 76, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-  .marketing .bang:hover {
-    opacity: 0.65; }
-    /* line 78, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-    .marketing .bang:hover h2 {
-      opacity: 0.85; }
-
-/* line 86, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 52, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .large {
   font-size: 48px; }
 
-/* line 90, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 56, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .fade {
   opacity: 0.75;
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s; }
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s; }
 
-/* line 96, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 62, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .fade:hover {
   opacity: 1; }
 
-/* line 100, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 66, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .header-title {
   margin: 5%; }
 
-/* line 4, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
+/* line 3, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
 .header {
   background-color: white;
   width: 100%;
-  border-bottom: 1px solid #222; }
+  border-bottom: 1px solid #222;
+  border-bottom-width: 95%; }
   /* line 8, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
   .header nav {
     height: 250px; }
@@ -528,6 +497,45 @@ body {
     display: inline;
     padding: 0 40px 0 0;
     margin: 0; }
+
+/* line 1, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+.contact {
+  width: 100%; }
+  /* line 3, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+  .contact form {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'roboto', 'arial', sans-serif; }
+    /* line 8, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    .contact form input, .contact form textarea {
+      padding: 10px;
+      box-sizing: border-box;
+      border: 1px solid #8A8A8A;
+      border-radius: 5px; }
+    /* line 14, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    .contact form input.name, .contact form input.email {
+      width: 45.1%;
+      margin: 1%; }
+    /* line 18, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    .contact form textarea.message {
+      width: 92.5%;
+      height: 200px;
+      margin: 1%;
+      resize: none; }
+    /* line 24, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    .contact form input.button {
+      float: right;
+      margin-right: 6.5%;
+      margin-top: 2%;
+      border: none;
+      padding: 15px 25px;
+      color: #fff;
+      background-color: rgba(126, 126, 126, 0.75);
+      transition: background-color 1s; }
+      /* line 33, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+      .contact form input.button:hover {
+        background-color: #595B5D; }
 
 /* line 1, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/footer.scss */
 .footer {
@@ -563,34 +571,49 @@ body {
       margin: 0 auto;
       display: block; } }
 @media (max-width: 860px) {
-  /* line 20, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 21, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .header-margin {
+    margin-left: 5%; }
+
+  /* line 25, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .wrap {
     width: 100%; }
 
-  /* line 24, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 29, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .full {
+    width: 90%;
+    margin: 0 auto; }
+
+  /* line 35, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header h1 {
     float: initial;
     display: block;
     text-align: center;
     padding: 80px 0 0 0;
     margin: 0; }
-  /* line 31, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 43, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul {
     float: initial;
     display: block;
     text-align: center;
     padding: 0 0 0 1.25%;
     margin: 0; }
-  /* line 38, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 50, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul li {
     float: initial;
     padding: 0;
     margin: 0; }
-    /* line 42, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    /* line 54, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
     .header ul li a {
-      padding: 0 3% 0 0; } }
-@media (max-width: 650) {
-  /* line 50, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+      padding: 0 3% 0 0; }
+
+  /* line 60, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .contact form input.name, .contact form input.email {
+    display: block;
+    width: 92.5%;
+    margin-bottom: 15px; } }
+@media (max-width: 650px) {
+  /* line 69, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .marketing {
     background: url("../images/marketing.jpg") no-repeat -77px 0;
     -webkit-background-size: cover;
@@ -598,15 +621,11 @@ body {
     -o-background-size: cover;
     background-size: cover; }
 
-  /* line 58, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
-  .large {
-    font-size: 36px; }
-
-  /* line 62, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 78, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul li {
     display: inline; } }
 @media (max-width: 450px) {
-  /* line 69, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 85, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .marketing {
     background: url("../images/marketing.jpg") no-repeat -150px 0;
     -webkit-background-size: cover;
@@ -614,6 +633,6 @@ body {
     -o-background-size: cover;
     background-size: cover; }
 
-  /* line 76, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 92, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .large {
     font-size: 36px; } }

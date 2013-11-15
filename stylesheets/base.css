@@ -42,56 +42,23 @@ body {
   .third img {
     margin: 0 auto;
     margin-left: 13%;
+    padding-right: 18px;
     display: block; }
 
-/* line 50, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-.marketing {
-  width: 100%;
-  height: 450px;
-  background: url("../images/marketing.jpg") no-repeat 0px -125px;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-  /* line 58, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-  .marketing .bang {
-    margin: 0 auto;
-    width: 75%;
-    padding: 10% 5% 10% 5%;
-    border-radius: 5px;
-    background-color: #ecf0f1;
-    opacity: 0;
-    top: 87px;
-    position: relative;
-    -webkit-transition: opacity 1s;
-    transition: opacity 1s; }
-    /* line 69, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-    .marketing .bang h2 {
-      margin: 0 auto;
-      opacity: 0;
-      -webkit-transition: opacity 1.5s;
-      transition: opacity 1.5s; }
-  /* line 76, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-  .marketing .bang:hover {
-    opacity: 0.65; }
-    /* line 78, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-    .marketing .bang:hover h2 {
-      opacity: 0.85; }
-
-/* line 86, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 52, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .large {
   font-size: 48px; }
 
-/* line 90, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 56, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .fade {
   opacity: 0.75;
-  -webkit-transition: opacity 1s;
-  transition: opacity 1s; }
+  -webkit-transition: opacity 2s;
+  transition: opacity 2s; }
 
-/* line 96, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 62, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .fade:hover {
   opacity: 1; }
 
-/* line 100, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 66, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .header-title {
   margin: 5%; }

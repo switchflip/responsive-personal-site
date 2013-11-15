@@ -1,8 +1,9 @@
-/* line 4, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
+/* line 3, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
 .header {
   background-color: white;
   width: 100%;
-  border-bottom: 1px solid #222; }
+  border-bottom: 1px solid #222;
+  border-bottom-width: 95%; }
   /* line 8, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
   .header nav {
     height: 250px; }
