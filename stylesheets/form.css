@@ -5,25 +5,27 @@
   .contact form {
     width: 90%;
     margin: 0 auto;
-    margin-top: 25px;
-    font-family: 'roboto', 'arial', sans-serif; }
-    /* line 8, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    margin-top: 25px; }
+    /* line 7, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form input, .contact form textarea {
+      font-family: 'Cabin', sans-serif;
+      font-size: 14px;
+      line-height: 24px;
       padding: 10px;
       box-sizing: border-box;
       border: 1px solid #8A8A8A;
       border-radius: 5px; }
-    /* line 14, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    /* line 16, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form input.name, .contact form input.email {
       width: 45.1%;
       margin: 1%; }
-    /* line 18, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    /* line 20, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form textarea.message {
       width: 92.5%;
       height: 200px;
       margin: 1%;
       resize: none; }
-    /* line 24, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    /* line 26, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form input.button {
       float: right;
       margin-right: 6.5%;
@@ -33,6 +35,6 @@
       color: #fff;
       background-color: rgba(126, 126, 126, 0.75);
       transition: background-color 1s; }
-      /* line 33, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+      /* line 35, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
       .contact form input.button:hover {
         background-color: #595B5D; }
