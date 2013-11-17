@@ -1,8 +1,8 @@
 /* line 6, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 p, ul li, a {
-  font-family: "Cabin", sans-serif;
-  opacity: 0.9;
-  color: #5b6064;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #777777;
   line-height: 24px;
   letter-spacing: 0.5px; }
 
@@ -13,8 +13,8 @@ p {
 /* line 18, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 a {
   text-decoration: none;
-  color: #5b6064;
-  font-family: "Cabin", sans-serif; }
+  color: #777777;
+  font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 /* line 24, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 a:hover {
@@ -23,9 +23,18 @@ a:hover {
 /* line 28, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: serif;
-  color: #222222;
+  color: #6f6e6e;
   font-family: "Arvo", serif; }
 
-/* line 34, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+/* line 35, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+.header h1 {
+  color: #F3F3F3; }
+/* line 38, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+.header li a {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #F3F3F3; }
+
+/* line 45, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 .code {
   font-family: 'cousine' sans-serif; }

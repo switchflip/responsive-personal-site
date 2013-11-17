@@ -1,27 +1,25 @@
 /* line 3, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
 .header {
-  background-color: white;
-  width: 100%;
-  border-bottom: 1px solid #222;
-  border-bottom-width: 95%; }
-  /* line 8, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
+  background-color: #222222;
+  width: 100%; }
+  /* line 6, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
   .header nav {
     height: 250px; }
-  /* line 12, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
+  /* line 10, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
   .header h1 {
     float: left;
     display: inline;
     padding: 90px 0 0 10%;
     margin: 0; }
-  /* line 19, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
+  /* line 17, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
   .header ul {
     float: right;
     display: inline;
-    padding: 116px 7% 0 0;
+    padding: 95px 7% 0 0;
     margin: 0; }
-  /* line 26, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
-  .header ul li {
-    float: left;
-    display: inline;
-    padding: 0 40px 0 0;
-    margin: 0; }
+    /* line 22, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
+    .header ul li {
+      float: left;
+      display: inline;
+      padding: 0 40px 0 0;
+      margin: 0; }
