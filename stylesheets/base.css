@@ -3,8 +3,7 @@ body {
   background-color: #ffffff;
   padding: 0;
   margin: 0;
-  min-width: 320px;
-  max-width: 1280px; }
+  min-width: 320px;}
 
 /* line 9, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .wrap {
