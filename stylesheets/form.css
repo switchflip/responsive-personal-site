@@ -18,7 +18,7 @@
       border-radius: 5px; }
     /* line 17, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form input.name, .contact form input.email {
-      width: 45%;
+      width: 44.8%;
       margin: 1%;
       box-sizing: border-box;
       -moz-box-sizing: border-box; }
@@ -34,7 +34,7 @@
     .contact form input.button {
       box-sizing: border-box;
       -moz-box-sizing: border-box;
-      width: 93%;
+      width: 92%;
       margin: 1%;
       border: none;
       padding: 15px 25px;
