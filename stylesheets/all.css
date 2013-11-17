@@ -532,6 +532,11 @@ figure img {
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
+/* line 126, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+.center-img {
+  display: block;
+  margin: 0 auto; }
+
 /* line 3, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
 .header {
   background-color: #2980b9;
