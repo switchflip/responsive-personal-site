@@ -667,36 +667,37 @@ figure img {
   /* line 35, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .full {
     width: 90%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-top: 15px; }
 
-  /* line 41, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 42, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   figure img {
     width: 90%; }
 
-  /* line 47, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 48, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header h1 {
     display: block;
     text-align: center;
     padding: 80px 0 0 0;
-    margin: 0 0 0 1%; }
-  /* line 54, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    margin: 0 0 0 3%; }
+  /* line 55, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul {
     display: block;
     text-align: center;
     padding: 90px 0% 0 0;
     margin: 0; }
-  /* line 60, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 61, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul li {
     float: initial;
     margin: 0; }
 
-  /* line 67, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 68, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .contact form input.name, .contact form input.email {
     display: block;
     width: 92.5%;
     margin-bottom: 15px; } }
 @media (max-width: 650px) {
-  /* line 76, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 77, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .marketing {
     background: url("../images/marketing.jpg") no-repeat -77px 0;
     -webkit-background-size: cover;
@@ -704,19 +705,19 @@ figure img {
     -o-background-size: cover;
     background-size: cover; } }
 @media (max-width: 600px) {
-  /* line 87, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 88, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header h1 {
     float: none; }
-  /* line 90, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 91, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul {
     float: none;
     margin: 0 auto;
     padding: 10px 0 0 0; }
-    /* line 94, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    /* line 95, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
     .header ul li {
       padding: 0 5px 0 0; } }
 @media (max-width: 450px) {
-  /* line 103, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 104, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .marketing {
     background: url("../images/marketing.jpg") no-repeat -150px 0;
     -webkit-background-size: cover;
@@ -724,6 +725,6 @@ figure img {
     -o-background-size: cover;
     background-size: cover; }
 
-  /* line 110, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 111, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .large {
     font-size: 36px; } }
