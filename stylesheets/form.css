@@ -8,41 +8,40 @@
     margin-top: 25px; }
     /* line 7, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form input, .contact form textarea {
+      -webkit-border-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      resize: none; }
+    /* line 13, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    .contact form input, .contact form textarea {
       font-family: 'Cabin', sans-serif;
       font-size: 14px;
       line-height: 24px;
       padding: 10px;
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      border: 1px solid #8A8A8A;
+      border: 1px solid #777777;
       border-radius: 5px; }
-    /* line 17, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+    /* line 21, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form input.name, .contact form input.email {
       width: 44.8%;
-      margin: 1%;
-      box-sizing: border-box;
-      -moz-box-sizing: border-box; }
-    /* line 24, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+      margin: 1%; }
+    /* line 26, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form textarea.message {
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
       width: 92%;
       height: 200px;
-      margin: 1%;
-      resize: none; }
-    /* line 32, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+      margin: 1%; }
+    /* line 31, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
     .contact form input.button {
-      box-sizing: border-box;
-      -moz-box-sizing: border-box;
       width: 92%;
       margin: 1%;
       border: none;
       padding: 15px 25px;
-      color: #fff;
-      background-color: #27AE60;
+      color: #ffffff;
+      background-color: #222;
       opacity: 0.75;
-      transition: background-color 1s;
-      -moz-transition: background-color 1s; }
-      /* line 44, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
+      -webkit-transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      transition: all 0.5s; }
+      /* line 42, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
       .contact form input.button:hover {
-        background-color: #2ECC71; }
+        background-color: #27ae60;
+        color: #fff; }
