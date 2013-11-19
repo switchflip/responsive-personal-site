@@ -9792,6 +9792,11 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 
 
 $(document).ready(function(){
+	activeState();
+});
+
+
+function activeState() {
 	var pathname = window.location.pathname;
 	if (pathname[1] == 'c') {
 		$('.code').removeClass('code').addClass('active');
@@ -9800,4 +9805,4 @@ $(document).ready(function(){
 	} else {
 		$('.about').removeClass('code').addClass('active');
 	}
-});
+};
