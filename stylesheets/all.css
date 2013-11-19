@@ -423,6 +423,10 @@ h1, h2, h3, h4, h5, h6 {
 .code {
   font-family: 'cousine' sans-serif; }
 
+/* line 56, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+.active {
+  opacity: 1; }
+
 /* line 1, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 body {
   background-color: #ffffff;
@@ -548,6 +552,10 @@ figure img {
 /* line 133, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .hide {
   display: none; }
+
+/* line 137, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+.active {
+  opacity: 1; }
 
 /* line 3, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
 .header {

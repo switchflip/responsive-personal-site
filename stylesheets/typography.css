@@ -44,3 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 52, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
 .code {
   font-family: 'cousine' sans-serif; }
+
+/* line 56, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/typography.scss */
+.active {
+  opacity: 1; }

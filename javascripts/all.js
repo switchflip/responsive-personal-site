@@ -9790,3 +9790,14 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 })( window );
 
 
+
+$(document).ready(function(){
+	var pathname = window.location.pathname;
+	if (pathname[1] == 'c') {
+		$('.code').removeClass('code').addClass('active');
+	} else if (pathname[1] == 'i') {
+		$('.index').removeClass('code').addClass('active');
+	} else {
+		$('.about').removeClass('code').addClass('active');
+	}
+});

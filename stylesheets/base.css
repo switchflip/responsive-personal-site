@@ -123,3 +123,7 @@ figure img {
 /* line 133, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .hide {
   display: none; }
+
+/* line 137, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+.active {
+  opacity: 1; }
