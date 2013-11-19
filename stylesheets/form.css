@@ -36,11 +36,11 @@
       border: none;
       padding: 15px 25px;
       color: #ffffff;
-      background-color: #222;
+      background-color: #777;
       opacity: 0.75;
-      -webkit-transition: all 0.5s;
-      -moz-transition: all 0.5s;
-      transition: all 0.5s; }
+      -webkit-transition: all 0.5s ease;
+      -moz-transition: all 0.5s ease;
+      transition: all 0.5s ease; }
       /* line 42, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/form.scss */
       .contact form input.button:hover {
         background-color: #27ae60;
