@@ -9824,13 +9824,8 @@ function instagram(){
 	    get: 'user',
 	    userId: 144587050,
 	    accessToken: '144587050.467ede5.c54ab91f6bfe4b6082cebedf79dc27ef',
-	    template: '<a href="{{link}}">
-	    						<figure>
-	    						<img src="{{image}}" />
-	    						<figcaption>{{caption}}</figcaption>
-	    						</figure>
-	    					</a>',
-	    resolution: 'low_resolution',
+	    resolution: 'standard_resolution',
+	    template: '<a href="{{link}}"><img class="instagram-img" src="{{image}}" alt="instagram photo"/></a>',
 	    limit: 4
 	});
 	userFeed.run();
