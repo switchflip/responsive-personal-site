@@ -21,7 +21,6 @@
       </a>
       <ul>
         <li>
-          <!-- %img{:src => 'images/icons/profle.png'} -->
           <a class='fade index' href='index.html'>Home</a>
         </li>
         <li>
@@ -44,18 +43,21 @@
           <img alt='A image of me, Thomas Berry' class='one-edge-shadow round-all' src='images/thomas-berry-profile.jpg'>
         </div>
       </figure>
-      <div class='contact'>
+      <div class='insta'>
+        <a href='http://www.instagram.com/brofairy'>
+          <h2 class='header-margin'>@brofairy</h2>
+          <ul id='instagram'>
+            <li></li>
+          </ul>
+        </a>
+      </div>
+      <div class='contact clearfix'>
         <h2 class='header-margin'>Contact Me</h2>
         <p class='full'>If you'd like to get a hold of me to discuss work opportunities or anything else. Feel free to send me a message.</p>
-        <!-- %form{:method => 'post'} -->
-        <!-- %input.name{:type => 'text', :placeholder => 'Name', :required => true} -->
-        <!-- %input.email{:type => 'text', :placeholder => 'Email', :required => true} -->
-        <!-- %textarea.message{:placeholder => 'Comments', :required => true} -->
-        <!-- %input.button{:type => "submit", :value => "Send", :class => "button"} -->
         <form action='https://switchflip.wufoo.com/forms/mw1cf720g5zq8q/#public' autocomplete='off' class='wufoo topLabel page' enctype='multipart/form-data' id='form2' method='post' name='form2' novalidate=''>
-          <input class='name' name='Field1' onkeyup='' placeholder='Name' type='text'>
-          <input class='email' name='Field2' placeholder='Email' spellcheck='false' type='email' value=''>
-          <textarea class='message' name='Field3' onkeyup='' placeholder='Comments' spellcheck='true'></textarea>
+          <input class='name' name='Field1' onkeyup='' placeholder='Name' required type='text'>
+          <input class='email' name='Field2' placeholder='Email' required spellcheck='false' type='email'>
+          <textarea class='message' name='Field3' onkeyup='' placeholder='Comments' required spellcheck='true'></textarea>
           <input class='btTxt submit button' id='saveForm' name='saveForm' type='submit' value='Submit'>
           <div class='li hide'>
             <label for='comment'>Do Not Fill This Out</label>
@@ -79,7 +81,7 @@
         <a class='fade' href='http://www.github.com/switchflip'>Github</a>
       </li>
       <li>
-        <a class='fade' href='#'>Blog</a>
+        <a class='fade' href='http://www.thomasreidberry.tumblr.com'>Blog</a>
       </li>
     </ul>
   </div>

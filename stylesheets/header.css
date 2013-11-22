@@ -6,7 +6,7 @@
   .header nav {
     height: 250px; }
   /* line 10, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/header.scss */
-  .header h1 {
+  .header h1, .header h2 {
     float: left;
     display: inline;
     padding: 90px 0 0 10%;

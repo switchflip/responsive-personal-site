@@ -9788,13 +9788,71 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
 }
 
 })( window );
+/*
+ * jQInstaPics
+ * Created by: Abid Din - http://craftedpixelz.co.uk
+ * Version: 1.0
+ * Copyright: Crafted Pixelz
+ * License: MIT license
+ * Updated: 26th April 2013
+*/
+
+ 
+(function ($) {
+    $.fn.jqinstapics = function (options) {
+
+        // Defaults
+        var defaults = {
+            "user_id": null,
+            "access_token": null,
+            "count": 10
+        };                      
+
+        var o = $.extend(defaults, options);
+
+        return this.each(function () {
+        
+          // Vars
+          var elem = $(this),
+              url = "https://api.instagram.com/v1/users/" + o.user_id + "/media/recent?access_token=" + o.access_token + "&count=" + o.count + "&callback=?";
+           	
+            // Get the images	
+            $.getJSON(url, function(data){
+                $.each(data.data, function (i, val) {
+                    var li = $("<li/>").appendTo(elem),
+                        a = $("<a/>", {"href": val.link, "target": "_blank"}).appendTo(li),
+                        img = $("<img/>", {"src": val.images.thumbnail.url}).appendTo(a);
+                    
+                    if (val.caption){
+                        a.attr("title", val.caption.text);
+                    }
+                });
+            });
+            
+            if(o.user_id == null || o.access_token == null){
+              elem.append("<li>Please specify a User ID and Access Token, as outlined in the docs.</li>");
+            }
+
+        });
+    };
+})(jQuery);
+
 
 
 
 $(document).ready(function(){
 	activeState();
-});
+	
+	if (window.location.pathname[1] == 'a') {
+		instagram();
+	}
 
+	// if window.location.pathname[1] == 'a' {
+	// 	instagram();	
+	// }; else {
+	// 	console.log('Get fucked!')
+	// }
+});
 
 function activeState() {
 	var pathname = window.location.pathname;
@@ -9806,3 +9864,12 @@ function activeState() {
 		$('.about').removeClass('code').addClass('active');
 	}
 };
+
+function instagram(){
+	$("#instagram").jqinstapics({
+  	"user_id": "144587050",
+  	"access_token": "144587050.674061d.28056a0bde9546bbb7aab1883342bba4",
+  	"count": 5
+	});
+}
+;
