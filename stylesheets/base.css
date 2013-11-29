@@ -83,14 +83,22 @@ figure img {
   margin-top: 50px;
   margin-bottom: 50px; }
 
-/* line 96, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 98, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+.resume .row .right {
+  width: 55%;
+  margin-top: 13px; }
+/* line 102, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+.resume .row .left {
+  width: 45%; }
+
+/* line 110, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 #instafeed {
   box-sizing: border-box;
   width: 90%;
   margin: 0 auto;
   background-color: red; }
 
-/* line 103, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 117, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .instagram-img {
   float: left;
   width: 40%;
@@ -99,58 +107,70 @@ figure img {
   -webkit-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 114, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 128, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+.no-bullet {
+  list-style: none; }
+
+/* line 132, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .large {
   font-size: 48px; }
 
-/* line 118, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 136, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .fade {
   opacity: 0.5;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-/* line 125, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 143, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .fade:hover {
   opacity: 1;
   top: -5px; }
 
-/* line 130, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 148, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .header-title {
   margin: 5%; }
 
-/* line 134, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 152, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black; }
 
-/* line 140, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 158, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .round-all {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 146, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 164, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .center-img {
   display: block;
   margin: 0 auto; }
 
-/* line 151, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 169, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .hide {
   display: none; }
 
-/* line 155, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 173, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .active {
   opacity: 1; }
 
-/* line 159, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 177, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .clearfix {
   clear: both; }
 
-/* line 163, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 181, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .circle-img {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
   display: block; }
+
+/* line 188, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+.left {
+  float: left; }
+
+/* line 192, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+.right {
+  float: right; }
