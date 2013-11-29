@@ -9800,12 +9800,6 @@ $(document).ready(function(){
 	if (window.location.pathname[1] == 'a') {
 		instagram();
 	}
-
-	// if window.location.pathname[1] == 'a' {
-	// 	instagram();	
-	// }; else {
-	// 	console.log('Get fucked!')
-	// }
 });
 
 function instagram(){

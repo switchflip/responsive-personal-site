@@ -503,31 +503,42 @@ body {
   margin: 5%; }
 
 /* line 83, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
-figure img {
-  box-sizing: border-box;
+figure img.large {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  box-sizing: border-box;
   width: 65%;
   display: block;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px; }
+/* line 93, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+figure img.resume-pic {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 0 10px 24px;
+  float: left; }
 
-/* line 98, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 109, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .resume .row .right {
   width: 55%;
   margin-top: 13px; }
-/* line 102, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 113, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .resume .row .left {
   width: 45%; }
 
-/* line 110, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 121, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 #instafeed {
   box-sizing: border-box;
   width: 90%;
   margin: 0 auto;
   background-color: red; }
 
-/* line 117, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 128, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .instagram-img {
   float: left;
   width: 40%;
@@ -536,71 +547,71 @@ figure img {
   -webkit-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 128, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 139, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .no-bullet {
   list-style: none; }
 
-/* line 132, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 143, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .large {
   font-size: 48px; }
 
-/* line 136, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 147, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .fade {
   opacity: 0.5;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-/* line 143, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 154, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .fade:hover {
   opacity: 1;
   top: -5px; }
 
-/* line 148, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 159, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .header-title {
   margin: 5%; }
 
-/* line 152, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 163, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .one-edge-shadow {
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black; }
 
-/* line 158, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 169, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .round-all {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 164, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 175, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .center-img {
   display: block;
   margin: 0 auto; }
 
-/* line 169, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 180, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .hide {
   display: none; }
 
-/* line 173, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 184, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .active {
   opacity: 1; }
 
-/* line 177, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 188, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .clearfix {
   clear: both; }
 
-/* line 181, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 192, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .circle-img {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
   display: block; }
 
-/* line 188, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 199, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .left {
   float: left; }
 
-/* line 192, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
+/* line 203, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/base.scss */
 .right {
   float: right; }
 
@@ -720,7 +731,26 @@ figure img {
       margin: 0 auto;
       display: block; } }
 @media (max-width: 860px) {
-  /* line 17, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 19, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .resume .row img {
+    float: none; }
+  /* line 22, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .resume .row .left {
+    width: 100%; }
+    /* line 24, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    .resume .row .left h2 {
+      text-align: center; }
+  /* line 28, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  .resume .row .right {
+    width: 100%; }
+    /* line 30, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    .resume .row .right p {
+      margin: 5%; }
+    /* line 33, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    .resume .row .right h3 {
+      margin: 5%; }
+
+  /* line 40, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .instagram-img {
     float: left;
     width: 75%;
@@ -729,63 +759,67 @@ figure img {
     -webkit-border-radius: 5px;
     border-radius: 5px; }
 
-  /* line 26, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 49, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .circle-img {
     display: block;
     margin: 0 auto; }
 
-  /* line 30, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 53, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .two {
     width: 90%;
     margin: 5% 5% 0 5%;
     padding: 0; }
-    /* line 34, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    /* line 57, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
     .two p {
       width: 90%;
       margin: 0 auto; }
 
-  /* line 40, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 63, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header-margin {
     margin-left: 5%; }
 
-  /* line 44, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 67, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .wrap {
     width: 100%; }
 
-  /* line 48, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 71, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .full {
     width: 90%;
     margin: 0 auto;
     padding-top: 15px; }
 
-  /* line 55, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
-  figure img {
+  /* line 78, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  figure img.large {
     width: 90%; }
+  /* line 81, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  figure img.resume-pic {
+    margin: 0 auto;
+    display: block; }
 
-  /* line 61, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 88, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header h1 {
     display: block;
     text-align: center;
     padding: 80px 0 0 0;
     margin: 0 0 0 3%; }
-  /* line 68, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 95, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul {
     display: block;
     text-align: center;
     padding: 90px 0% 0 0;
     margin: 0; }
-  /* line 74, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 101, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul li {
     float: initial;
     margin: 0; }
 
-  /* line 81, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 108, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .contact form input.name, .contact form input.email {
     display: block;
     width: 92.5%;
     margin-bottom: 15px; } }
 @media (max-width: 650px) {
-  /* line 90, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 117, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .marketing {
     background: url("../images/marketing.jpg") no-repeat -77px 0;
     -webkit-background-size: cover;
@@ -793,19 +827,19 @@ figure img {
     -o-background-size: cover;
     background-size: cover; } }
 @media (max-width: 700px) {
-  /* line 101, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 128, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header h1 {
     float: none; }
-  /* line 104, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 131, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .header ul {
     float: none;
     margin: 0 auto;
     padding: 10px 0 0 0; }
-    /* line 108, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+    /* line 135, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
     .header ul li {
       padding: 0 5px 0 0; } }
 @media (max-width: 450px) {
-  /* line 117, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 144, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .marketing {
     background: url("../images/marketing.jpg") no-repeat -150px 0;
     -webkit-background-size: cover;
@@ -813,6 +847,6 @@ figure img {
     -o-background-size: cover;
     background-size: cover; }
 
-  /* line 124, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
+  /* line 151, /Users/thomasberry/Desktop/development/responsive-personal-site/source/stylesheets/mediaquery.scss */
   .large {
     font-size: 36px; } }
