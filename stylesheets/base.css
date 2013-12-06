@@ -90,7 +90,7 @@ figure img.resume-pic {
   box-sizing: border-box;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 100px;
   margin: 0 0 10px 24px;
   float: left; }
 
